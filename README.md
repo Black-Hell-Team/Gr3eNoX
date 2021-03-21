@@ -16,3 +16,5 @@ LFI Scanner
 LFI Fuzz
 
 XSS Scanner
+
+Custom domain
