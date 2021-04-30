@@ -5,16 +5,24 @@ A scanner for known vulnerabilities writted in csharp
 
 ## Features
 
-SQLI Scanner
+> SQLI Scanner
 
-SQLI Simple
+> SQLI Simple
 
-SQLI Complex
+> SQLI Complex
 
-LFI Scanner
+> LFI Scanner
 
-LFI Fuzz
+> LFI Fuzz
 
-XSS Scanner
+> XSS Scanner
 
-Custom domain
+> Custom domain
+
+# Tested On 
+
+> Windows 10 (64 bits)
+
+> Windows 10 (32 bits)
+
+> Windows 7 
