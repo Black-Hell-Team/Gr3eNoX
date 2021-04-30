@@ -1,4 +1,5 @@
-# G3S
+# Gr3eNoX Exploit Vuln Scanner
+
 <img src="https://raw.githubusercontent.com/Black-Hell-Team/G3S/main/.img/20210321_192738.png">
 
 A scanner for known vulnerabilities writted in csharp
