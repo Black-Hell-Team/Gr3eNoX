@@ -1,4 +1,4 @@
-﻿//Type: Gr3eNoX_Exploit_Scanner_V80._0.My.MyProject
+//Type: Gr3eNoX_Exploit_Scanner_V80._0.My.MyProject
 // Assembly: Gr3eNoX Exploit Scanner V8.0, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 
 using Gr3eNoX_Exploit_Scanner_V80._0.My;
@@ -385,6 +385,7 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       this.lfifuzz.Anchor = AnchorStyles.Top;
       this.lfifuzz.AutoSize = true;
       RadioButton lfifuzz1 = this.lfifuzz;
+      
       point1 = new Point(644, 12);
       Point point10 = point1;
       lfifuzz1.Location = point10;
@@ -397,6 +398,7 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       this.lfifuzz.TabStop = true;
       this.lfifuzz.Text = "LFI Fuzz";
       this.lfifuzz.UseVisualStyleBackColor = true;
+      
       this.rfi.Anchor = AnchorStyles.Top;
       this.rfi.AutoSize = true;
       RadioButton rfi1 = this.rfi;
@@ -416,13 +418,11 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       this.GroupBox1.Controls.Add((Control) this.domainbox);
       this.GroupBox1.Controls.Add((Control) this.saveb);
       this.GroupBox1.Controls.Add((Control) this.domain);
-      this.GroupBox1.Controls.Add((Control) this.stop2b);
       this.GroupBox1.Controls.Add((Control) this.searchb);
       this.GroupBox1.Controls.Add((Control) this.stopb);
       this.GroupBox1.Controls.Add((Control) this.loadb);
       this.GroupBox1.Controls.Add((Control) this.clearb);
       this.GroupBox1.Controls.Add((Control) this.dorkbox);
-      this.GroupBox1.Controls.Add((Control) this.clear2b);
       this.GroupBox1.Controls.Add((Control) this.Label1);
       this.GroupBox1.Controls.Add((Control) this.proxyb);
       this.GroupBox1.Controls.Add((Control) this.cloneb);
@@ -493,20 +493,8 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       this.domain.TabIndex = 13;
       this.domain.Text = "Use Custom Domain:";
       this.domain.UseVisualStyleBackColor = true;
-      this.stop2b.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.stop2b.FlatStyle = FlatStyle.Flat;
-      Button stop2b1 = this.stop2b;
-      point1 = new Point(634, 41);
-      Point point17 = point1;
-      stop2b1.Location = point17;
-      this.stop2b.Name = "stop2b";
-      Button stop2b2 = this.stop2b;
-      size1 = new Size(116, 23);
-      Size size26 = size1;
-      stop2b2.Size = size26;
-      this.stop2b.TabIndex = 12;
-      this.stop2b.Text = "Stop";
-      this.stop2b.UseVisualStyleBackColor = true;
+      
+      
       this.searchb.Anchor = AnchorStyles.Top | AnchorStyles.Right;
       this.searchb.FlatStyle = FlatStyle.Flat;
       Button searchb1 = this.searchb;
@@ -549,6 +537,7 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       this.loadb.TabIndex = 9;
       this.loadb.Text = "Load From File";
       this.loadb.UseVisualStyleBackColor = true;
+      // Clear button 
       this.clearb.Anchor = AnchorStyles.Top | AnchorStyles.Right;
       this.clearb.FlatStyle = FlatStyle.Flat;
       Button clearb1 = this.clearb;
@@ -563,6 +552,8 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       this.clearb.TabIndex = 8;
       this.clearb.Text = "Clear";
       this.clearb.UseVisualStyleBackColor = true;
+      
+      // Dorkbox 
       this.dorkbox.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
       TextBox dorkbox1 = this.dorkbox;
       point1 = new Point(46, 13);
@@ -574,20 +565,8 @@ namespace Gr3eNoX_Exploit_Scanner_V80._0
       Size size31 = size1;
       dorkbox2.Size = size31;
       this.dorkbox.TabIndex = 7;
-      this.clear2b.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.clear2b.FlatStyle = FlatStyle.Flat;
-      Button clear2b1 = this.clear2b;
-      point1 = new Point(756, 40);
-      Point point23 = point1;
-      clear2b1.Location = point23;
-      this.clear2b.Name = "clear2b";
-      Button clear2b2 = this.clear2b;
-      size1 = new Size(116, 23);
-      Size size32 = size1;
-      clear2b2.Size = size32;
-      this.clear2b.TabIndex = 6;
-      this.clear2b.Text = "Clear";
-      this.clear2b.UseVisualStyleBackColor = true;
+
+      
       this.Label1.AutoSize = true;
       Label label1_1 = this.Label1;
       point1 = new Point(12, 16);
