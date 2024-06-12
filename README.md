@@ -4,6 +4,10 @@
 
 A scanner for known vulnerabilities writted in csharp
 
+## Decompiled/cracked by:
+
+<a href="github.com/BrunoCiccarino">Bruno Ciccarino</a>
+
 ## Disclaimer :
 Aurthor assumes that the users would use Gr3eNoX Vulnerabilitie scanner **legally**. Aurthor won't be responsible in case of **any damage** caused by **any user** using this source code. This code is open sourced for educational purpose.
 
